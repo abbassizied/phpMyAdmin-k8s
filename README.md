@@ -1,0 +1,1 @@
+# phpMyAdmin-k8s
