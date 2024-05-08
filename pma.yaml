@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: phpmyadmin
-        image: phpmyadmin
+        image: phpmyadmin/phpmyadmin # Official phpMyAdmin Docker image
         resources:
           limits:
             memory: "128Mi"
