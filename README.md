@@ -1,6 +1,6 @@
 # phpMyAdmin-k8s
 
-## steps to test concepts in killercude:
+## steps to test concepts in killercoda:
 
 ```sh
 $ git clone https://github.com/abbassizied/phpMyAdmin-k8s.git
