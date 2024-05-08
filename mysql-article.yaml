@@ -67,4 +67,7 @@ spec:
     - protocol: TCP
       port: 3306 # External exposed port
       # targetPort: 3306  # Internal port
-      clusterIP: None # for headless Service useful in stateful app
+  type: ClusterIP
+  clusterIP: None # for headless Service useful in stateful app
+  
+
