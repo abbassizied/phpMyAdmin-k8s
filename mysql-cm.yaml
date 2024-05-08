@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-cm
+  namespace: ams-database
+data:
+  provider-db-name: provider-db
+  article-db-name: article-db

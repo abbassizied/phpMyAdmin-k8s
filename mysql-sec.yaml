@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: db-secrets
+  namespace: ams-database
+type: Opaque
+data:
+  root-password: cm9vdA== # root
+  user-username: dXNlcjEyMw== # user123
+  user-password: cGFzczEyMw== # pass123
